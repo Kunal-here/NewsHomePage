@@ -291,10 +291,12 @@ img {
         height: 70vh;
         overflow: hidden;
         text-align: center;
+        visibility:hidden;
         transition: 1s ease-in-out;
     }
 
     ul.ham-active.hidden {
+        visibility:visible;
         transform: translateX(-200%);
     }
 
