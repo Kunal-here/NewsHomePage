@@ -1,6 +1,5 @@
 const hamburger = document.querySelector('#hamburger')
 const ul = document.querySelector('ul');
-const close = document.querySelector('#hamburger-close')
 
 
 
