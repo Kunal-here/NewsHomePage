@@ -280,7 +280,7 @@ img {
 
     nav ul {
         justify-content: flex-start;
-        gap: 10px;
+        gap: 20px;
     }
 
 
@@ -293,7 +293,7 @@ img {
         top: 6.7rem;
         background-color: white;
         width: 66.3%;
-        height: 100vh;
+        height: 90vh;
         text-align: center;
         visibility:hidden;
         transition: 1s ease-in-out;
@@ -301,7 +301,7 @@ img {
 
     ul.ham-active.hidden {
         visibility:visible;
-        transform: translateX(-200%);
+        transform: translateX(200%);
     }
 
     ul.ham-active.visible {
