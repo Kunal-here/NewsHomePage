@@ -301,7 +301,7 @@ img {
 
     ul.ham-active.hidden {
         visibility:visible;
-        transform: translateX(200%);
+        transform: translateX(-200%);
     }
 
     ul.ham-active.visible {
