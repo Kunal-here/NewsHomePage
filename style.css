@@ -275,7 +275,12 @@ img {
     }
 
     ul li {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+        gap: 10px;
     }
 
 
@@ -288,8 +293,7 @@ img {
         top: 6.7rem;
         background-color: white;
         width: 66.3%;
-        height: 65%;
-        overflow: hidden;
+        height: 100vh;
         text-align: center;
         visibility:hidden;
         transition: 1s ease-in-out;
